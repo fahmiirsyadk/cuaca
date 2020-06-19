@@ -5,8 +5,8 @@ import { useForm } from "react-hook-form";
 import { css } from "@emotion/css";
 import tw from "@tailwindcssinjs/macro";
 
-const API_KEY = "e3f10e29d989865adc8c990f62b406be";
-const CITY = "Banyuwangi";
+const API_KEY = process.env.API_KEY;
+const CITY = "Yogyakarta";
 const STATE = "id";
 
 const WeatherComponent = dynamic(() => import("../components/Weather"), {
@@ -75,7 +75,7 @@ const Homepage = () => {
             )}
             name="city"
             type="text"
-            placeholder="Banyuwangi"
+            placeholder="Yogyakarta"
             inputMode="text"
             ref={register({ required: true })}
           />

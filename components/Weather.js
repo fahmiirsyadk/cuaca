@@ -4,7 +4,7 @@ import { css } from "@emotion/css";
 import Head from "next/head";
 import tw from "@tailwindcssinjs/macro";
 
-const API_KEY = "e3f10e29d989865adc8c990f62b406be";
+const API_KEY = process.env.API_KEY;
 const STATE = "id";
 
 const colorTempCondition = (temp) =>
