@@ -27,6 +27,6 @@
     "@tailwindcss/ui": "0.3.0",
     "@tailwindcssinjs/macro": "0.7.2",
     "babel-plugin-macros": "2.8.0",
-    "tailwindcss": "1.4.6"
+    "tailwindcss": "2.2.17"
   }
 }
