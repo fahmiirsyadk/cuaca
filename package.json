@@ -25,7 +25,7 @@
     "@emotion/babel-plugin": "11.0.0-next.12",
     "@emotion/server": "11.0.0-next.12",
     "@tailwindcss/ui": "0.3.0",
-    "@tailwindcssinjs/macro": "0.7.2",
+    "@tailwindcssinjs/macro": "0.17.0",
     "babel-plugin-macros": "2.8.0",
     "tailwindcss": "1.4.6"
   }
